@@ -1,0 +1,18 @@
+#,probability that taxon was correctly identified,,,,
+year,pci_lower,pci_upper,Notes,References,pi_source
+1894,0.95,0.99,several collected and many observed in the lowlands of Rio de Janeiro state by Goeldi with flocks of 50-100,Areta et al 2009,Butchart el al 2018
+1901,0.95,0.99,specimen collected Sao Francisco MG at 1580m in AMNH,Collar et al 1992,Butchart el al 2018
+1902,0.95,0.99,"specimens: 2 males  collected Victoria SP state, Brazil at 570m in AMNH",Collar et al 1992,Butchart el al 2018
+1926,0.95,0.99,specimen collected Teresopolis RJ in MNRJ,Collar et al 1992,Butchart el al 2018
+1929,0.95,0.99,specimen collected Caparao MG at 1350m in AMNH,Collar et al 1992,Butchart el al 2018
+1937,0.95,0.99,specimens collected Vicosa MG in MZUFV; at Sa da Cantareira in MZUSP,Collar et al 1992,Butchart el al 2018
+1943,0.95,0.99,"specimens collected Faz. Comari & Boa Fe, RJ state in MZUSP",Collar et al 1992,Butchart el al 2018
+1946,0.95,0.99,specimen collected just N of SP city at Gaviao in FMNH,Collar et al 1992,Butchart el al 2018
+1950,0.95,0.99,specimen MZUSP,,This study
+1951,0.95,0.99,specimen MZUSP,,This study
+1953,0.95,0.99,specimen MZUSP,,This study
+1956,0.95,0.99,"specimen  collected 14th May at Santa Teresa, ES, Brazil now in MNRJ",Collar et al 1992,Butchart el al 2018
+1957,0.95,0.99,collected Iguazu AR by Partridge,Areta et al 2009,Butchart el al 2018
+1959,0.95,0.99,specimen  collected on BR116 in SP near divide with Parana State Brazil in MZUSP,Collar et al 1992,Butchart el al 2018
+1977,0.95,0.99,"Individual ringed by Tarak & Christie at Iguazu AR Two of the (very few) records of more than two birds together were in February of 1977, according to Naka",Areta et al 2009; Naka et al 2000,Butchart el al 2018
+1985,0.9,0.99,"specimen collected Jan 15th Estrada do Pau do Fome, Taquara, Jacarepaguá, RJ held at MNRJ ",A. Lees in litt 2016,Butchart el al 2018

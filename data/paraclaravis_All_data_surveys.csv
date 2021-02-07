@@ -1,0 +1,7 @@
+#,proportion of habitat surveyed within entire range,,probability that taxon could have been identified if recorded,,probability that taxon would have been recorded,,
+year,eps_lower,eps_upper,pi_lower,pi_upper,pr_lower,pr_upper,notes
+2007,0.001,0.001,0.1,0.65,0.4,0.65,Nacho Area et al surveys
+2008,0.001,0.001,0.1,0.65,0.4,0.65,Nacho Area et al surveys
+2009,0.001,0.001,0.1,0.65,0.4,0.65,Nacho Area et al surveys
+2010,0.001,0.001,0.1,0.65,0.4,0.65,Nacho Area et al surveys
+2011,0.001,0.001,0.1,0.65,0.4,0.65,Nacho Area et al surveys
