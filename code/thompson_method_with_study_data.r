@@ -56,10 +56,10 @@ pas.sur05_20
 # source functions
 source("thompson_functions.r")
 
-recordings <- read.csv("data/paraclaravis_All_data_recordings.csv", comment.char = "#")
+recordings <- read.csv("data/paraclaravis_All_data_records_sightings.csv", comment.char = "#")
 surveys <- read.csv("data/paraclaravis_All_data_surveys.csv", comment.char = "#")
 
-## remove 2007 and 208 from surveys - due to sightings
+## remove 2007 and 208 from surveys - due to sightings in these years
 surveys <- subset(surveys, !year %in% c(2007, 2008))
 
 head(recordings)

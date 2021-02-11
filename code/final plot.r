@@ -5,14 +5,14 @@ source("https://raw.githubusercontent.com/Cdevenish/R-Material/master/Functions/
 load("sightings.rdata")
 years
 
-dataX <- cbind(years = years, PXt)
+dataX <- data.frame(years = years, PXt, Basis = "All records")
+head(dataX)
 
 load("specimen.rdata")
 
-dataX <- data.frame(rbind(dataX, cbind(years = years, PXt)))
-colnames(dataX) <- c("years", "sd_lwr", "PXt", "sd_upr", "PXt_min", "PXt_max")
+dataX <- rbind(dataX,data.frame(years = years, PXt, Basis = "Specimens"))
+colnames(dataX) <- c("years", "sd_lwr", "PXt", "sd_upr", "PXt_min", "PXt_max", "Basis")
 
-dataX$Basis <- rep(c("All records", "Specimens"), each = length(years))
 head(dataX)
 
 w.xls(dataX)
@@ -27,9 +27,9 @@ ggplot(dataX, aes(x = years, y = PXt, col= Basis))+
   geom_line(aes(linetype= Basis), size = 1)+
   ylim(c(0,1))+
   xlab("Years")+
-  scale_x_continuous(breaks = seq(1890, 2030,10))+
+  scale_x_continuous(breaks = seq(1810, 2030,10))+
   ylab("Probability that taxon is extant")+
   theme_light()+
   theme(legend.position = c(0.1,0.15))
-  ggsave("extinction risk/risk_2_on_1.png", width = 200, height = 150, units = "mm")
+ggsave("risk_2_on_1.png", width = 200, height = 150, units = "mm")
 

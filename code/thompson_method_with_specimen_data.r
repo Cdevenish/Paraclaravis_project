@@ -63,12 +63,22 @@ pas.sur05_20
 # source functions
 source("thompson_functions.r")
 
-recordings <- read.csv("data/paraclaravis_All_data_specimens.csv", comment.char = "#")
+recordings <- read.csv("data/paraclaravis_All_data_records_sightings.csv", comment.char = "#")
 surveys <- read.csv("data/paraclaravis_All_data_surveys.csv", comment.char = "#")
 
 head(recordings)
 str(recordings)
 recordings[,1:3]
+
+# check years are unique - one record per year, specimen trumps sighting
+length(unique(recordings$year)) == nrow(recordings)
+
+
+## subset to only specimens
+unique(recordings$type)
+recordings <- subset(recordings, type == "specimen")
+recordings
+
 
 #total number of years (including years without data)
 years = seq(min(recordings[,'year'],pas.sur05_20[,'year']),endYear,by =1) # if no surveys
