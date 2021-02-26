@@ -6,7 +6,7 @@
 
 ## Sampling of the values, counting st dev then setting
 
-setwd("C:/Users/55116479/Dropbox (Manchester Met)/R_online/Paraclaravis")
+setwd("")
 
 # passive surveys all years prior to 2005. - from Butchart et al 2018
 eps.passive = c(0,	0.05)

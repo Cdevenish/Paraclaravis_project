@@ -2,7 +2,7 @@
 
 sourceProtection
 
-setwd("C:/Users/55116479/Dropbox (Manchester Met)/R_online/Paraclaravis")
+setwd("")
 dir()
 
 library(sf)

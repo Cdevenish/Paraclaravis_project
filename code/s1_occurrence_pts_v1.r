@@ -1,6 +1,6 @@
 ##  1. Occurrence points ####
 
-setwd("C:/Users/55116479/Dropbox (Manchester Met)/R_online/Paraclaravis")
+setwd("")
 
 # sirgas for BR
 sirgas <- "+proj=poly +lat_0=0 +lon_0=-54 +x_0=5000000 +y_0=10000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
